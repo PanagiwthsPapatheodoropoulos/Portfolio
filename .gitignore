@@ -36,4 +36,8 @@ yarn-error.log*
 next-env.d.ts
 
 .vscode
-/.public
+
+
+# Next.js build output
+.next
+out
