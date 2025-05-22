@@ -30,7 +30,7 @@ const projects = [
   {
     title: "FullStack Web Application",
     description: "Employee management system for a company",
-    technologies: ["React.js", "Tailwind CSS","Java","Springboot","PostgreSQL","Typescript"],
+    technologies: ["React.js", "Tailwind CSS","Java","Springboot","PostgreSQL","Typescript","RestAPI"],
     githublink: "https://github.com/PanagiwthsPapatheodoropoulos/FullStack-Cite"
   }
 ]
