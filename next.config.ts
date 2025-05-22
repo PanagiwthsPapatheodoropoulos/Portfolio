@@ -1,15 +1,7 @@
-import type { NextConfig } from "next";
-
-const repoName = "Portfolio"; // <-- change to your repo name if different
-
-const nextConfig: NextConfig = {
-  output: "export",
-  basePath: "/" + repoName,
-  assetPrefix: "/" + repoName + "/",
+const nextConfig = {
   images: {
-    unoptimized: true,
+    unoptimized: true, // (optional, you can remove this if you want Vercel image optimization)
   },
-  // other config options here
 };
 
 export default nextConfig;

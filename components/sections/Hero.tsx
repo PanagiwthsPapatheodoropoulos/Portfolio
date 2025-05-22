@@ -35,7 +35,7 @@ const Hero = () => {
 
         <div className="w-[500px] h-[500px] overflow-hidden rounded-[30px] "> 
           <Image
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/gojo.gif`}
+            src={`/gojo.gif`}
             alt="Animated GIF"
             width={450} 
             height={450} 

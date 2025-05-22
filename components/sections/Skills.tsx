@@ -4,25 +4,25 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 
 const skills = [
-  { name: "Java", logo: `${basePath}/java-logo.png` },
-  { name: "C", logo: `${basePath}/c-logo.png` },
-  { name: "C++", logo: `${basePath}/cpp-logo.png` },
-  { name: "Python", logo: `${basePath}/python-logo.png` },
-  { name: "HTML", logo: `${basePath}/html-logo.png` },
-  { name: "CSS", logo: `${basePath}/css-logo.png` },
-  { name: "JavaScript", logo: `${basePath}/javascript-logo.png` },
-  { name: "Next.js", logo: `${basePath}/nextjs-logo.png` },
-  { name: "React", logo: `${basePath}/react-logo.png` },
-  { name: "SQL", logo: `${basePath}/sql-logo.png` },
-  { name: "Tailwind CSS", logo: `${basePath}/tailwind-logo.png` },
-  { name: "Git", logo: `${basePath}/git-logo-png_seeklogo-297887.png` },
-  { name: "GitHub", logo: `${basePath}/GitHub-Mark-ea2971cee799.png` },
-  { name: "NodeJS", logo: `${basePath}/Node.js_logo.svg.png` },
-  { name: "MongoDB", logo: `${basePath}/mongodb-icon-2.svg` },
-  { name: "Bootstrap", logo: `${basePath}/Bootstrap_logo.svg.png` },
+  { name: "Java", logo: `/java-logo.png` },
+  { name: "C", logo: `/c-logo.png` },
+  { name: "C++", logo: `/cpp-logo.png` },
+  { name: "Python", logo: `/python-logo.png` },
+  { name: "HTML", logo: `/html-logo.png` },
+  { name: "CSS", logo: `/css-logo.png` },
+  { name: "JavaScript", logo: `/javascript-logo.png` },
+  { name: "Next.js", logo: `/nextjs-logo.png` },
+  { name: "React", logo: `/react-logo.png` },
+  { name: "SQL", logo: `/sql-logo.png` },
+  { name: "Tailwind CSS", logo: `/tailwind-logo.png` },
+  { name: "Git", logo: `/git-logo-png_seeklogo-297887.png` },
+  { name: "GitHub", logo: `/GitHub-Mark-ea2971cee799.png` },
+  { name: "NodeJS", logo: `/Node.js_logo.svg.png` },
+  { name: "MongoDB", logo: `/mongodb-icon-2.svg` },
+  { name: "Bootstrap", logo: `/Bootstrap_logo.svg.png` },
 ];
 
 const Skills = () => {
